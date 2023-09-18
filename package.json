@@ -1,6 +1,6 @@
 {
   "name": "react-plaid-link",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "description": "A React component for Plaid Link",
   "registry": "https://registry.npmjs.org",
   "files": [
@@ -33,6 +33,7 @@
     "example": "examples"
   },
   "scripts": {
+    "build": "tsc",
     "lint": "eslint '{src,examples}/**/*.{ts,tsx,js,jsx}' --ignore-path .gitignore",
     "test": "NODE_ENV=test BABEL_ENV=testing jest",
     "storybook": "start-storybook -p 9001",
